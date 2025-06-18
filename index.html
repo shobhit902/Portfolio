@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="utility.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        align-items: center;
+      }
+      header {
+        padding: 10px 10px;
+        position: sticky;
+        background: black;
+        color: white;
+        top: 0;
+        z-index: 1000;
+      }
+      body {
+        height: 1000px;
+        background-color: #f0f0f0;
+        font-family: "Roboto", sans-seri6;
+      }
+      .hero {
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: white;
+      }
+      .intro {
+        margin-top: 30px;
+      }
+      .img {
+        object-fit: contain;
+      }
+      .projects {
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: bold;
+      }
+      .proj{
+        grid-template-columns: auto auto auto ;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container flex justify-content">
+        <h1>Logo</h1>
+        <nav>
+          <ul class="flex justify-content gap-2">
+            <li>Home</li>
+            <li>About Me</li>
+            <li>My Projects</li>
+            <li>Me</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="hero flex justify-content">
+        <div class="intro">
+          <h6>Branding | Design Making</h6>
+          <h1>Frontend Developer</h1>
+          <p>
+            This is a personal Portfolio Page. <br />
+            Dedicated to making commercial websites.
+          </p>
+          <button class="Contact">Contact</button>
+        </div>
+        <div>
+          <img
+            src="https://picsum.photos/seed/picsum/200"
+            alt="Shobhit Rawat smiley face"
+            class="img"
+          />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="projects flex justify-content">
+        <div class="task1">To-Do</div>
+        <div class="task2">Job-Finder</div>
+        <div class="task3">Portfolio</div>
+        <div class="task4">Github Profile</div>
+        <div class="task6">API</div>
+      </div>
+    </section>
+    <section>
+      <div class="work flex justify-content top">
+        <div class="type">
+          <img src="" alt="img" />
+          <h6>Title</h6>
+          <p>This is the intro to the title</p>
+        </div>
+        <div class="type">
+          <img src="" alt="img" />
+          <h6>Title</h6>
+          <p>This is the intro to the title</p>
+        </div>
+        <div class="type">
+          <img src="" alt="img" />
+          <h6>Title</h6>
+          <p>This is the intro to the title</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="latest top">
+        <h5>Latest Work</h5>
+        <div class="proj grid gap top">
+          <div>
+            <img src="https://picsum.photos/seed/picsum/150" alt="random" />
+            <p>Title</p>
+            <P>Type Of work</P>
+          </div>
+            <div>
+            <img src="https://picsum.photos/seed/picsum/150" alt="random" />
+            <p>Title</p>
+            <P>Type Of work</P>
+          </div>  <div>
+            <img src="https://picsum.photos/seed/picsum/150" alt="random" />
+            <p>Title</p>
+            <P>Type Of work</P>
+          </div>  <div>
+            <img src="https://picsum.photos/seed/picsum/150" alt="random" />
+            <p>Title</p>
+            <P>Type Of work</P>
+          </div>  <div>
+            <img src="https://picsum.photos/seed/picsum/150" alt="random" />
+            <p>Title</p>
+            <P>Type Of work</P>
+          </div>  <div>
+            <img src="https://picsum.photos/seed/picsum/150" alt="random" />
+            <p>Title</p>
+            <P>Type Of work</P>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

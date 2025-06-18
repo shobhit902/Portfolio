@@ -1,0 +1,22 @@
+.flex {
+    display: flex;
+}
+.grid{
+     display: grid;
+}
+.justify-content {
+    justify-content: space-between;
+}
+
+nav li {
+    list-style: none;
+}
+.gap-2{
+    gap: 2rem;
+}
+.gap {
+    gap: 20px;
+}
+.top{
+    padding-top: 40px;
+}
